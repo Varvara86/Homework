@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    background-color: black;
+    border-spacing: 30px;
+}
+.title {
+    color: white;
+    font-family: roboto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+}
+.txt {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    font-family: roboto;
+    font-weight: lighter;
+    line-height: 2;
+}
+.img {
+    width: 20px;
+    padding-top: 15px;
+}
+.img1 {
+    width: 20px;
+    padding-top: 20px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 10px 0;
+}
