@@ -1,0 +1,64 @@
+.wrapper {
+    width: 100%;
+    padding: 119px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f7f7f1;
+    background: url(./Images/Diff_Psd\ Template.jpg) no-repeat;
+    position: top;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row {
+    margin: 0 -15px;
+    padding-bottom: 15px;
+}
+.col {
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-8 {
+    width: 25%;
+}
+.clear {
+    clear: both;
+    height: 1px;
+}
+.h1 {
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 460px;
+}
+.footer{
+
+
+    height: 360px;
+    background-image: url(./Images/Footer.png);
+}
+
+.footer .logo {
+    width: 100px;
+    margin: 0px auto;
+
+}
+.footer .logo img {
+   
+    margin-top: 90px ;
+
+}
+.copyright {
+text-align: center;
+color: #e4e4e4;
+line-height: 35px;
+}

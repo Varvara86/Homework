@@ -1,0 +1,274 @@
+.wrapper {
+    background-position: top;
+    background-image: url(../Images/Landing.jpg);
+    width: 1300px;
+    min-height: 4217px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+    display: block;
+}
+
+.wrapper__home {
+    display: block;
+    background-position: top;
+    background-image: url(../Images/Home.jpg);
+    background-repeat: no-repeat;
+    width: 1300px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row__work {
+    margin: 0 -15px;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    background-image: url(../Images/Home.jpg);
+    background-position: top;
+    size: 100%;
+    padding-bottom: 90px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.logo {}
+
+.logo__txt {
+    text-decoration: none;
+    color: white;
+    width: 105px;
+    height: 21px;
+    font-size: 28px;
+    line-height: 53px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.se {
+    color: #2ec06c;
+    font-weight: 700;
+}
+
+.burger {
+    color: white;
+    padding-top: 10px;
+    padding-right: 16px;
+}
+
+.burger__href {
+    color: white;
+}
+
+.midsize {
+    padding-top: 69px;
+    padding-bottom: 45px;
+}
+
+h1 {
+    width: 376px;
+    height: 83px;
+    color: white;
+    font-family: Karla;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.h1__word {
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+
+.servise {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 220px;
+    height: 220px;
+    background-color: none;
+    opacity: 100%;
+    padding-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.card__title_front {
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.card__text_front {
+    width: 200px;
+    height: 24px;
+    color: white;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.card__back {
+    background-color: #2dbf6b;
+    display: none;
+    margin-top: -30px;
+    transition: 500ms;
+}
+
+.card__title_back {
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.card__text_back {
+    width: 200px;
+    height: 24px;
+    color: white;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 21px;
+}
+
+.card__front,
+.card__back {
+    /* padding: 16px; */
+}
+
+.card:hover {
+    background-color: #2dbf6b;
+}
+
+.card:hover .card__front {
+    display: none;
+}
+
+.card:hover .card__back {
+    display: block;
+}
+
+.card:hover .card__footer {
+    background-color: #27ae60;
+    color: white;
+}
+
+.card__footer {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #0338ff;
+    padding: 15px;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+}
+
+
+
+.h2_about {
+    color: #191919;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-top: 97px;
+    padding-bottom: 2px;
+}
+
+.h2_span {
+    font-weight: 700;
+}
+
+.p_about {
+    color: #404040;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: justify;
+    letter-spacing: -0.185px;
+    padding-bottom: 32px;
+}
+
+.wrapper__about_me {
+    display: flex;
+    background-position: right;
+    background-color: #fafafa;
+    background-image: url(../Images/About\ me.jpg);
+    background-repeat: no-repeat;
+    width: 1300px;
+}
+
+.button {
+    width: 200px; 
+    margin-right: 19px;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 99px;
+}
+.button__front {
+    color: #2ec06c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid #2ec06c;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+.button__front:hover {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    background-color: #2ec06c;
+    border-radius: 25px;
+    padding: 15px 0;
+}
+
+
+
+.wrapper__my_services {
+    display: block;
+    width: 1300px;
+    padding: 100px 0;
+}
+.row__center {
+    display: block;
+    text-align: center;
+}
+.h2_services {
+    color: #202020;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.p_services {
+    color: #202020;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
