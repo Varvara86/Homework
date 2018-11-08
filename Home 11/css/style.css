@@ -342,6 +342,9 @@ h3 {
 
 
 
+.wrapper__projects {
+    min-height: 999px;
+}
 .row__projects_1 {
     text-align: center;
     justify-content: center;
@@ -418,4 +421,40 @@ h2 {
     text-align: center;
     margin-top: -4px;
     padding: 23px 0;
+}
+
+
+
+.wrapper__review {
+    display: flex;
+    background-position: top;
+    background-image: url(../Images/Review.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 81px 0;
+}
+.row__review {
+    justify-content: center;
+}
+.review__comment {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 0px;
+}
+.review__name {
+    line-height: 29px;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+.review__name--green {
+    color: #2ec06c;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
 }
