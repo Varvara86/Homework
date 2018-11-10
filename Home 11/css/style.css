@@ -247,7 +247,7 @@ h1 {
     font-size: 30px;
     line-height: 29px;
     font-weight: 400;
-    margin-bottom: -4px;
+    margin-bottom: -3px;
 }
 
 .services__p {
@@ -255,7 +255,7 @@ h1 {
     color: #202020;
     font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 31px;
     letter-spacing: -0.01px;
 }
 
@@ -267,7 +267,7 @@ h1 {
 
 .work__icon {
     padding-top: 44px;
-    padding-left: 14px;
+    padding-left: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,9 +302,7 @@ h3 {
     margin-top: -13px;
 }
 
-.col+.col {
-    margin-left: 76px;
-}
+
 
 
 .wrapper__partners {
@@ -457,4 +455,186 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
+}
+
+
+
+.wrapper__form {
+    min-height: 632px;
+    padding: 68px 0;
+}
+.col-12 {
+    text-align: center;
+}
+.form__h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #2ec06c;
+    font-weight: 700;
+}
+.form__p {
+    color: #666;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 38px;
+}
+.row__form {
+    display: flex;
+}
+.form {
+    position: relative;
+    box-sizing: border-box;
+    width: 139px;
+    height: 139px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+}
+.form__f {
+    border-color: #3b5998;
+}
+.form__f:hover {
+    background-color: #3b5998;
+}
+.fa-facebook-f {
+    color: #3b5998;
+}
+.form__i {
+    border-color: #517fa4;
+}
+.form__i:hover {
+    background-color: #517fa4;
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.form__t {
+    border-color: #00aced;
+}
+.form__t:hover {
+    background-color: #00aced;
+}
+.fa-twitter {
+    color: #00aced;
+}
+.form__d {
+    border-color: #ff0084;
+}
+.form__d:hover {
+    background-color: #ff0084;
+}
+.fa-dribbble {
+    color: #ff0084;
+}
+.fab {
+    font-size: 58px;
+}
+.fa-telegram-plane {
+    font-size: 1.3em;
+}
+.form:hover .fab {
+    color: white;
+}
+
+.form__imput form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 300px;
+    height: 299px
+}
+
+input,textarea {
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #bababa;
+    border-radius: 6px;
+    padding: 0 20px;
+    letter-spacing: -.01em;
+    width: calc(50% - 10px)
+}
+
+textarea {
+    padding: 15px 20px 0;
+    height: 160px;
+    width: 93.5%
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    font-family: 'Asap',sans-serif;
+    font-style: italic
+}
+
+input:-ms-input-placeholder,input::-ms-input-placeholder,textarea:-ms-input-placeholder,textarea::-ms-input-placeholder {
+    font-family: 'Asap',sans-serif;
+    font-style: italic
+}
+
+input::placeholder,textarea::placeholder {
+    font-family: 'Asap',sans-serif;
+    font-style: italic
+}
+
+input:focus {
+    border-radius: 6px
+}
+
+input:focus,textarea:focus {
+    border-color: #2ec06c;
+    outline: 0
+}
+
+textarea,textarea:focus {
+    border-radius: 6px 0 0 6px
+}
+
+button {
+    border-radius: 0 6px 6px 0;
+    border-width: 1px;
+    background: #2ec06c;
+    color: #fff
+}
+
+input {
+    height: 50px
+}
+
+textarea {
+    resize: none
+}
+
+.form__submit {
+    position: relative;
+    box-sizing: border-box;
+    height: 160px;
+    width: 100%
+}
+
+.comment {
+    height: 100%;
+    width: 93.5%
+}
+
+.form__submit__btn {
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 6.5%;
+    transition: background-color .5s
+}
+
+.form__submit__btn:active,.form__submit__btn:hover {
+    cursor: pointer;
+    background-color: #2aa55d;
+    border: 0;
+    outline: 0
 }
